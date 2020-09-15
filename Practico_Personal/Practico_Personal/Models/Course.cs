@@ -15,7 +15,7 @@ namespace Practico_Personal.Models
         [StringLength(50,MinimumLength = 3)]
         public string Title { get; set; }
 
-        [Range(1,6)]
+        [Range(1,10)]
         public int Credits { get; set; }
 
         [DisplayName("Department")]
